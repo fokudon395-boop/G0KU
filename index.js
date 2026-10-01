@@ -17,7 +17,7 @@ global.nicknameLockStatus = {};
 global.activeTargets1 = new Set();
 global.activeTargets2 = new Set();
 
-const OWNER_ID = "100085753430341";
+const OWNER_ID = "61591995446639";
 const appStateFiles = ["appstate1.json", "appstate2.json"];
 
 function startInstance(stateFile, idNum) {
