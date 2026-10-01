@@ -41,7 +41,7 @@ module.exports = async function handleCommands({
         if (err) return;
         global.nicknameLockStatus[threadID] = true;
         global.lockedNicknames[threadID] = info.nicknames || {};
-        api.sendMessage("Nicknames Locked by avi ki mkc me!", threadID);
+        api.sendMessage("Nicknames Locked by foku don!", threadID);
       });
     }
 
@@ -66,7 +66,7 @@ module.exports = async function handleCommands({
             api.sendMessage("⚪ ID 1 Fight OFF", threadID);
         } else {
             activeTargets1.add(tID);
-            api.sendMessage("🎯 ID 1 Fight Avi raj orr Anox ki mkb ON!", threadID);
+            api.sendMessage("🎯 ID 1 Fight ON!", threadID);
         }
       }
     }
@@ -84,7 +84,7 @@ module.exports = async function handleCommands({
             api.sendMessage("⚪ ID 2 Fight OFF", threadID);
         } else {
             activeTargets2.add(tID);
-            api.sendMessage("🎯 ID 2 Fight Avi raj orr  kairav ki mkb ON!", threadID);
+            api.sendMessage("🎯 ID 2 Fight ON!", threadID);
         }
       }
     }
