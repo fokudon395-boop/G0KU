@@ -107,7 +107,7 @@ await humanDelay(2000, 4000);
   await api.changeNickname(newNick, threadID, targetUser);
 
   await api.sendMessage(
-    `🔒 Nickname Locked Successfully`,
+    `🔒 Nickname `,
     threadID,
     messageID
   );
@@ -433,7 +433,7 @@ $cleartarget
 
 ━━━━━━━━━━━━━━━━
 ✨ Prefix : $
-👑 Owner Only Commands`,
+👑 Owner F0KU D0N `,
       threadID,
       messageID
     );
