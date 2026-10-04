@@ -107,7 +107,7 @@ await humanDelay(2000, 4000);
   await api.changeNickname(newNick, threadID, targetUser);
 
   await api.sendMessage(
-    `🔒 Nickname `,
+    ` `,
     threadID,
     messageID
   );
@@ -432,8 +432,8 @@ $target <uid>
 $cleartarget
 
 ━━━━━━━━━━━━━━━━
-✨ Prefix : $
-👑 Owner F0KU D0N `,
+✨ Prefix : !
+👑 Owner F4RISHT4 DON `,
       threadID,
       messageID
     );
