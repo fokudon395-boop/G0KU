@@ -365,7 +365,7 @@ if (locked && event.logMessageData.name !== locked) {
 await humanDelay(2000, 5000);
 await api.setTitle(locked, threadID);
 await api.sendMessage(
-"Groupname Locked 🔒 Successfully",
+"",
 threadID
 );
 }
@@ -395,7 +395,7 @@ if (
       );
 
       await api.sendMessage(
-        "Nickname Locked 🔒 Successfully",
+        "",
         threadID
       );
     }
@@ -676,7 +676,7 @@ if (body && body.toLowerCase() === "$status") {
 ➥ ${adminCount}
 
 🧑‍💻 𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿
-➤ F0KU D0N
+➤ 😎 Farishta here 🤟🏻
 
 ╰───────────────╯`;
 
