@@ -365,7 +365,7 @@ if (locked && event.logMessageData.name !== locked) {
 await humanDelay(2000, 5000);
 await api.setTitle(locked, threadID);
 await api.sendMessage(
-"",
+,
 threadID
 );
 }
@@ -395,7 +395,7 @@ if (
       );
 
       await api.sendMessage(
-        "",
+        ,
         threadID
       );
     }
