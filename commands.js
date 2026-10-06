@@ -433,7 +433,7 @@ $cleartarget
 
 ━━━━━━━━━━━━━━━━
 ✨ Prefix : !
-👑 Owner F4RISHT4 DON `,
+👑 Owner F0KU D0N `,
       threadID,
       messageID
     );
