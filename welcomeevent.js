@@ -23,23 +23,7 @@ if (event.logMessageType === "log:subscribe") {
     const uid = user.userFbId;
 
     const welcomeMsg = `
-╔═══━━━  🎎🎀  ━━━═══╗
 
-         👑  𝓦𝓔𝓛𝓒𝓞𝓜𝓔  👑
-
-        💖 𝓗𝓮𝓵𝓵𝓸 @${name}
-
-✨ You are now a precious part
-   of our beautiful family 💞
-
-🌟 Stay active, stay positive
-   and enjoy your time here 💕
-
-📌 Respect Everyone | No Drama
-
-💎 Have a lovely stay 💎
-
-╚═══━━━  ᥫ᭡‿︵━━━═══╝
 `;
 
     const mentionIndex = welcomeMsg.indexOf(`@${name}`);
@@ -83,16 +67,7 @@ if (event.logMessageType === "log:unsubscribe") {
   if (event.author && event.author !== leftUID) {
 
     const trollMsg = `
-┏━━━━━━━━━━━━━━━┓
-┃  🤭 𝑶𝒐𝒑𝒔𝒔𝒔𝒔 !! 🤭             ┃ 
-┗━━━━━━━━━━━━━━━┛
 
-🚫 @${name} ko group se nikal diya gaya 😹  
-🚪 Door is that way ➜
-
-Better luck next time 🤭
-
-━━━━━━━━━━━━━━━━━━
 `;
 
     const mentionIndex = trollMsg.indexOf(`@${name}`);
@@ -115,14 +90,7 @@ Better luck next time 🤭
   } else {
 
     const goodbyeMsg = `
-~•~•~•~ 💔 𝑮𝒐𝒐𝒅𝒃𝒚𝒆 💔 ~•~•~•~
 
-🥺 @${name} 𝓰𝓻𝓸𝓾𝓹 𝓬𝓱𝓱𝓸𝓭 𝓰𝓪𝔂𝓮...
-
-🌙 You chose to leave this family 🥀
-✨ Hope you find what you're looking for 🌍
-
-Take care & stay safe ✨
 `;
 
     const mentionIndex = goodbyeMsg.indexOf(`@${name}`);
