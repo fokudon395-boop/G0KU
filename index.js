@@ -147,7 +147,7 @@ function saveAppstate(api) {
 let activeKeyIndex = 0;
 let mqttInstanceId = 0;
 
-const PREFIX = "$";
+const PREFIX = "!";
 
 const OWNER_UIDS = fs.existsSync("owners.txt")
   ? fs.readFileSync("owners.txt", "utf8")
@@ -365,7 +365,7 @@ if (locked && event.logMessageData.name !== locked) {
 await humanDelay(2000, 5000);
 await api.setTitle(locked, threadID);
 await api.sendMessage(
-"Groupname Locked 🔒 Successfully",
+"",
 threadID
 );
 }
@@ -395,7 +395,7 @@ if (
       );
 
       await api.sendMessage(
-        "Nickname Locked 🔒 Successfully",
+        "",
         threadID
       );
     }
@@ -676,7 +676,7 @@ if (body && body.toLowerCase() === "$status") {
 ➥ ${adminCount}
 
 🧑‍💻 𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿
-➤ Vikram Sharma
+➤ F0KU DON 
 
 ╰───────────────╯`;
 
